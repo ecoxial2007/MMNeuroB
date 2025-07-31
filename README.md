@@ -172,6 +172,14 @@ MMNeuroB/
 - scikit-learn
 - torchmetrics
 
+创建Conda环境之后 pip 安装：
+
+```
+conda create -n mmnb python=3.8 -y
+conda activate mmnb
+pip install -r requirements.txt
+```
+
 ### 3.2 完整流程运行
 
 1. **格式转换**：
