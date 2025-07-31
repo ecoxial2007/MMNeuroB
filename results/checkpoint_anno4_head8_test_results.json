@@ -1,0 +1,28 @@
+{
+    "metadata": {
+        "checkpoint_path": "NeuroBClassification/checkpoint_anno4_head8.pth",
+        "split": "test",
+        "num_samples": 1
+    },
+    "overall_metrics": {
+        "acc_micro": 1.0,
+        "acc_macro": 1.0,
+        "auc_micro": 1.0,
+        "auc_macro": 0.0,
+        "auc_per_class": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    "per_file_predictions": {
+        "01909891-4": {
+            "y_pred": "Neuroblastoma",
+            "y_pred_prob": 0.46483027935028076,
+            "y_gt": "Neuroblastoma",
+            "y_gt_prob": 0.46483027935028076,
+            "result": true
+        }
+    }
+}
